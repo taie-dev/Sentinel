@@ -7,7 +7,7 @@ To use Sentinel DataSource Etcd, you should add the following dependency:
 
 ```xml
 <dependency>
-    <groupId>com.alibaba.csp</groupId>
+    <groupId>dev.taie.cloud</groupId>
     <artifactId>sentinel-datasource-etcd</artifactId>
     <version>x.y.z</version>
 </dependency>

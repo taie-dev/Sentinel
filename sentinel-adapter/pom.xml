@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>com.alibaba.csp</groupId>
+        <groupId>dev.taie.cloud</groupId>
         <artifactId>sentinel-parent</artifactId>
         <version>1.8.4-SNAPSHOT</version>
     </parent>
@@ -37,27 +37,27 @@
     <dependencyManagement>
         <dependencies>
             <dependency>
-                <groupId>com.alibaba.csp</groupId>
+                <groupId>dev.taie.cloud</groupId>
                 <artifactId>sentinel-core</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.alibaba.csp</groupId>
+                <groupId>dev.taie.cloud</groupId>
                 <artifactId>sentinel-extension</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.alibaba.csp</groupId>
+                <groupId>dev.taie.cloud</groupId>
                 <artifactId>sentinel-web-servlet</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.alibaba.csp</groupId>
+                <groupId>dev.taie.cloud</groupId>
                 <artifactId>sentinel-reactor-adapter</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.alibaba.csp</groupId>
+                <groupId>dev.taie.cloud</groupId>
                 <artifactId>sentinel-api-gateway-adapter-common</artifactId>
                 <version>${project.version}</version>
             </dependency>

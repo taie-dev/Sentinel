@@ -5,7 +5,7 @@ simply introduce following dependency to your project:
 
 ```xml
 <dependency>
-    <groupId>com.alibaba.csp</groupId>
+    <groupId>dev.taie.cloud</groupId>
     <artifactId>sentinel-logging-slf4j</artifactId>
     <version>${sentinel.version}</version>
 </dependency>

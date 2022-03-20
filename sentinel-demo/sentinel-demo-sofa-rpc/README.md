@@ -4,7 +4,7 @@ Sentinel 提供了与 SOFARPC 整合的模块 - `sentinel-sofa-rpc-adapter`，�
 
 ```xml
 <dependency>
-    <groupId>com.alibaba.csp</groupId>
+    <groupId>dev.taie.cloud</groupId>
     <artifactId>sentinel-sofa-rpc-adapter</artifactId>
     <version>x.y.z</version>
 </dependency>

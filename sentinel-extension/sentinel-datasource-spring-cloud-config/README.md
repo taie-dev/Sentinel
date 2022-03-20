@@ -7,7 +7,7 @@ To use Sentinel DataSource Spring Cloud Config, you should add the following dep
 
 ```xml
 <dependency>
-    <groupId>com.alibaba.csp</groupId>
+    <groupId>dev.taie.cloud</groupId>
     <artifactId>sentinel-datasource-spring-cloud-config</artifactId>
     <version>x.y.z</version>
 </dependency>

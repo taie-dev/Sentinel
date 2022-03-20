@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>com.alibaba.csp</groupId>
+        <groupId>dev.taie.cloud</groupId>
         <artifactId>sentinel-demo</artifactId>
         <version>1.8.4-SNAPSHOT</version>
     </parent>
@@ -12,15 +12,15 @@
 
     <dependencies>
         <dependency>
-            <groupId>com.alibaba.csp</groupId>
+            <groupId>dev.taie.cloud</groupId>
             <artifactId>sentinel-core</artifactId>
         </dependency>
         <dependency>
-            <groupId>com.alibaba.csp</groupId>
+            <groupId>dev.taie.cloud</groupId>
             <artifactId>sentinel-datasource-extension</artifactId>
         </dependency>
         <dependency>
-            <groupId>com.alibaba.csp</groupId>
+            <groupId>dev.taie.cloud</groupId>
             <artifactId>sentinel-transport-simple-http</artifactId>
         </dependency>
 

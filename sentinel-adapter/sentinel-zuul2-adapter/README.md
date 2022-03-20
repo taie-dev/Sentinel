@@ -13,7 +13,7 @@ flow control for Zuul 2.x API Gateway.
 
 ```xml
 <dependency>
-    <groupId>com.alibaba.csp</groupId>
+    <groupId>dev.taie.cloud</groupId>
     <artifactId>sentinel-zuul2-adapter</artifactId>
     <version>x.y.z</version>
 </dependency>

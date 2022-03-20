@@ -9,7 +9,7 @@ To use Sentinel SOFARPC Adapter, you can simply add the following dependency to 
 
 ```xml
 <dependency>
-    <groupId>com.alibaba.csp</groupId>
+    <groupId>dev.taie.cloud</groupId>
     <artifactId>sentinel-sofa-rpc-adapter</artifactId>
     <version>x.y.z</version>
 </dependency>

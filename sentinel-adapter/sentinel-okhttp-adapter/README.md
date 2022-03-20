@@ -8,7 +8,7 @@ Add the following dependency in `pom.xml` (if you are using Maven):
 
 ```xml
 <dependency>
-    <groupId>com.alibaba.csp</groupId>
+    <groupId>dev.taie.cloud</groupId>
     <artifactId>sentinel-okhttp-adapter</artifactId>
     <version>x.y.z</version>
 </dependency>

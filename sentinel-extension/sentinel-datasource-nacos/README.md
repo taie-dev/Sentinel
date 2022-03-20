@@ -7,7 +7,7 @@ To use Sentinel DataSource Nacos, you should add the following dependency:
 
 ```xml
 <dependency>
-    <groupId>com.alibaba.csp</groupId>
+    <groupId>dev.taie.cloud</groupId>
     <artifactId>sentinel-datasource-nacos</artifactId>
     <version>x.y.z</version>
 </dependency>
