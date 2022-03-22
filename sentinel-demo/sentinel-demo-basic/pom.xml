@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>com.alibaba.csp</groupId>
+        <groupId>dev.taie.sentinel</groupId>
         <artifactId>sentinel-demo</artifactId>
         <version>1.8.3</version>
     </parent>

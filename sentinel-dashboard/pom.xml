@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>com.alibaba.csp</groupId>
+        <groupId>dev.taie.sentinel</groupId>
         <artifactId>sentinel-parent</artifactId>
         <version>1.8.3</version>
     </parent>
@@ -20,25 +20,25 @@
 
     <dependencies>
         <dependency>
-            <groupId>com.alibaba.csp</groupId>
+            <groupId>dev.taie.sentinel</groupId>
             <artifactId>sentinel-core</artifactId>
         </dependency>
         <dependency>
-            <groupId>com.alibaba.csp</groupId>
+            <groupId>dev.taie.sentinel</groupId>
             <artifactId>sentinel-web-servlet</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>com.alibaba.csp</groupId>
+            <groupId>dev.taie.sentinel</groupId>
             <artifactId>sentinel-transport-simple-http</artifactId>
         </dependency>
         <dependency>
-            <groupId>com.alibaba.csp</groupId>
+            <groupId>dev.taie.sentinel</groupId>
             <artifactId>sentinel-parameter-flow-control</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>com.alibaba.csp</groupId>
+            <groupId>dev.taie.sentinel</groupId>
             <artifactId>sentinel-api-gateway-adapter-common</artifactId>
             <version>${project.version}</version>
         </dependency>
@@ -99,7 +99,7 @@
 
         <!-- for Nacos rule publisher sample -->
         <dependency>
-            <groupId>com.alibaba.csp</groupId>
+            <groupId>dev.taie.sentinel</groupId>
             <artifactId>sentinel-datasource-nacos</artifactId>
             <scope>test</scope>
         </dependency>
@@ -154,7 +154,7 @@
             </plugins>
         </pluginManagement>
         <plugins>
-            <plugin>
+            <!--<plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <version>${spring.boot.version}</version>
@@ -169,14 +169,14 @@
                         </goals>
                     </execution>
                 </executions>
-            </plugin>
+            </plugin>-->
 
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-deploy-plugin</artifactId>
                 <version>${maven.deploy.version}</version>
                 <configuration>
-                    <skip>true</skip>
+                    <skip>false</skip>
                 </configuration>
             </plugin>
         </plugins>
